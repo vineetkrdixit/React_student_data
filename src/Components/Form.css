@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+.main-body {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.full-body {
+  background: url(../assets/images/triangle.png);
+  background-size: cover;
+  height: 100vh;
+}
+.form-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+label {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.form-body input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+}
+.stuDash h1 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.form-wrapper {
+  background-color: #fff;
+  padding: 20px;
+  width: 30%;
+  border-radius: 20px;
+}
